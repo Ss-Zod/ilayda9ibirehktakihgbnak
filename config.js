@@ -9,7 +9,7 @@ const CONFIG = {
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "Tsa7bi m3ay? 💝",
+    pageTitle: "Tkheribi9a Dyali 💝",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
@@ -22,13 +22,13 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "kanhma9 3lik ❤️"           // Secret hover message
+            text: "Katbghini ?",                                    // First interaction
+            yesBtn: "Chwya w saf",                                             // Text for "Yes" button
+            noBtn: "La",                                               // Text for "No" button
+            secretAnswer: "Kanbghik ❤️"           // Secret hover message
         },
         second: {
-            text: "How much do you love me?",                          // For the love meter
+            text: "9dach katbghini ?",                          // For the love meter
             startText: "9d SMA!",                                   // Text before the percentage
             nextBtn: "Next ❤️"                                         // Text for the next button
         },
@@ -42,15 +42,15 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "To infinity and beyond! 🚀💝",              // Shows when they go past 1000%
-        normal: "And beyond! 🥰"                           // Shows when they go past 100%
+        extreme: "HAKA 7SSEN !!!! l7IT SMA MAKATSALACH 💝",  // Shows when they go past 5000%
+        high: "Sf ghe 9D Sma... 💝",              // Shows when they go past 1000%
+        normal: "Hadchi wsf... :("                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
-        message: "Now come get your gift, a big warm hug and a huge kiss!",
+        title: "TANA KANBGHIK 9D SMA L7IT SMA MAKATSALACH 🎉💝💖💝💓",
+        message: "Rbe7ti ja2iza !!",
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
 
