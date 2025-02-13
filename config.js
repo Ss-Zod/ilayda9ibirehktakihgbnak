@@ -33,9 +33,9 @@ const CONFIG = {
             nextBtn: "Next ❤️"                                         // Text for the next button
         },
         third: {
-            text: "Will you be my Valentine on February 14th, 2025? 🌹", // The big question!
-            yesBtn: "Yes!",                                             // Text for "Yes" button
-            noBtn: "No"                                                 // Text for "No" button
+            text: "Tkouni tkheribi9a dyali pour toujours ? 🌹", // The big question!
+            yesBtn: "Ah bghit bghit bghit bghit bghit!",                                             // Text for "Yes" button
+            noBtn: "NO MABGHITCH"                                                 // Text for "No" button
         }
     },
 
@@ -49,7 +49,7 @@ const CONFIG = {
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "TANA KANBGHIK 9D SMA L7IT SMA MAKATSALACH 🎉💝💖💝💓",
+        title: "Kont 3Arfha TANA KANBGHIK 9D SMA L7IT SMA MAKATSALACH 🎉💝💖💝💓",
         message: "Rbe7ti ja2iza !!",
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
