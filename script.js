@@ -127,7 +127,12 @@ function moveButton(button) {
     button.style.position = 'fixed';
     button.style.left = x + 'px';
     button.style.top = y + 'px';
+    
+    // Afficher le message "test"
+    const message = document.getElementById("moveMessage");
+    message.style.display = "block";
 }
+
 
 // Love meter functionality
 const loveMeter = document.getElementById('loveMeter');
