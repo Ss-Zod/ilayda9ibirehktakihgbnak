@@ -77,6 +77,13 @@ window.addEventListener('DOMContentLoaded', () => {
     document.getElementById('yesBtn3').textContent = config.questions.third.yesBtn;
     document.getElementById('noBtn3').textContent = config.questions.third.noBtn;
 
+    
+    // Ajouter l'écouteur d'événements sur "No" (bouton 1)
+       const noBtn1 = document.getElementById('noBtn1');
+    noBtn1.addEventListener('click', function() {
+        moveButton(noBtn1);
+    });
+
     // Create initial floating elements
     createFloatingElements();
 
