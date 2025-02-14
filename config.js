@@ -29,8 +29,8 @@ const CONFIG = {
         },
         second: {
             text: "9dach katbghini ?",                          // For the love meter
-            startText: "9d SMA!",                                   // Text before the percentage
-            nextBtn: "Next ❤️"                                         // Text for the next button
+            startText: "attack le mayhbyech 3lik",                                   // Text before the percentage
+            nextBtn: "W Mb3d ?  ❤️"                                         // Text for the next button
         },
         third: {
             text: "Tkouni tkheribi9a dyali pour toujours ? 🌹", // The big question!
