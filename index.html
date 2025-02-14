@@ -80,6 +80,21 @@
     <script src="theme.js"></script>
     <script src="script.js"></script>
     <button id="hiddenMusicTrigger" style="display: none;"></button>
+    <script>
+document.addEventListener('click', function() {
+    const bgMusic = document.getElementById('bgMusic'); // Sélectionne l'élément audio
+    if (bgMusic.paused) {
+        bgMusic.play().then(() => {
+            console.log("🎵 Musique lancée !");
+        }).catch(error => {
+            console.warn("⛔ Chrome a bloqué la lecture automatique :", error);
+        });
+    }
+
+    // Supprimer l'écouteur après le premier clic
+    document.removeEventListener('click', arguments.callee);
+});
+</script>
 
 </body>
 </html> 
