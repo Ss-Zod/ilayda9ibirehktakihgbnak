@@ -15,7 +15,7 @@ const CONFIG = {
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
         hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
-        bears: ['🧸', '🐻','🦔​']                       // Cute bear emojis
+        bears: ['🧸','🦔', '🐻','🦔​']                       // Cute bear emojis
     },
 
     // Questions and answers
@@ -51,7 +51,7 @@ const CONFIG = {
     celebration: {
         title: "Kont 3arfha KANBGHIK 9D SMA L7IT SMA MAKATSALACH 🎉💝💖💝💓",
         message: "Bravo 7biba rbe7ti ja2iza !",
-        emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
+        emojis: "🎁💖🦔🤗💝🦔💋❤️💕"  // These will bounce around
     },
 
     // Color scheme for the website
