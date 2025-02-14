@@ -50,7 +50,7 @@ const CONFIG = {
     // Messages that appear after they say "Yes!"
     celebration: {
         title: "Kont 3arfha KANBGHIK 9D SMA L7IT SMA MAKATSALACH 🎉💝💖💝💓",
-        message: "Bravo 7biba rak rbe7ti ja2iza !",
+        message: "Bravo 7biba rbe7ti ja2iza !",
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
 
