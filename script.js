@@ -8,7 +8,7 @@ function validateConfig() {
     // Check required fields
     if (!config.valentineName) {
         warnings.push("Valentine's name is not set! Using default.");
-        config.valentineName = "A7ssan Rajae fl3Alam";
+        config.valentineName = "du pays des Rajaes";
     }
 
     // Validate colors
@@ -59,7 +59,7 @@ window.addEventListener('DOMContentLoaded', () => {
     validateConfig();
 
     // Set texts from config
-    document.getElementById('valentineTitle').textContent = `${config.valentineName}, A7ssan Rajae fl3Alam...`;
+    document.getElementById('valentineTitle').textContent = `${config.valentineName}, A7ssan Rajae fl3alam...`;
     
     // Set first question texts
     document.getElementById('question1Text').textContent = config.questions.first.text;
